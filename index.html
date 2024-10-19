@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+.error{
+
+  color:red;
+}
+
+</style>
+<body>
+ <form id="emailForm">
+  <label for="user">Username:</label>
+  <input type="text" name="user" id="user" placeholder="enter username">
+  <span id="userError" class="error"></span>
+  <br><br>
+  <!-- ////////////////////////////////////////// -->
+  <label for="email">Email:</label>
+  <input type="text" name="email" id="email" placeholder="enter email">
+  <span id="emailError" class="error"></span>
+  <br><br>
+  <!-- /////////////////////////////// -->
+  <label for="pass">password:</label>
+  <input type="text" name="pass" id="pass" placeholder="enter password">
+  <span id="passError" class="error"></span>
+  <br><br>
+  <button type="submit">submit</button>
+
+ </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
